@@ -2,7 +2,7 @@ name: Auto Commit 140
 
 on:
   schedule:
-    - cron: "47 21 * * 1"
+    - cron: '39 1,7,13,19 * * *'
   workflow_dispatch:
 
 permissions:
